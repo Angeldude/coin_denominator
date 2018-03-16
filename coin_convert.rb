@@ -13,7 +13,7 @@ module CoinConvert
     end
     
     def self.change_returned(amount)
-        amount < 0 ? ["not enough"] : CoinConvert.denominations(amount)
+        amount < 0 ? ["not enough"] : denominations(amount)
     end
     
     def self.convert(result)
