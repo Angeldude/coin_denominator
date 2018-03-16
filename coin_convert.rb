@@ -76,5 +76,5 @@ module CoinConvert
         ]
     end
 
-    private_class_method :quarters, :dimes, :nickels, :penny, :convert
+    private_class_method :quarters, :dimes, :nickels, :penny, :convert, :denominations
 end
