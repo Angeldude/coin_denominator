@@ -20,6 +20,6 @@ amount  = CoinConvert.make_money(price) - CoinConvert.make_money(items[food.to_s
 coins = CoinConvert.change_returned(amount)
 
 puts "Here's your change:"
-coins.reject {|x| x.split(' ').first.to_i == 0 }.each do |coin|
+coins.reject {|x| x.split.first.to_i == 0 }.each do |coin|
     puts coin
 end
