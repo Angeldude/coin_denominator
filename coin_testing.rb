@@ -6,7 +6,7 @@ require_relative 'coin_convert'
 # and pennies. For example, if the user chooses an item that costs $1.25 and they say they give it $2.07 the program 
 # would print out 3 quarters, 1 nickel and 2 pennies as change for the user. 
 
-items = {sandwich: "3.36", soda: "0.75"}
+items = {sandwich: "3.36", soda: "0.75", lollipop: "1.23"}
 
 puts items
 puts "What item?"
